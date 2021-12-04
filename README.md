@@ -34,7 +34,7 @@ Key variables:
 * wage -- firm-level total amount of wage from the CNTSD (10k yuan).
 * invest -- firm-level total amount of investment from the CNTSD (10k yuan).
 * valueadd -- firm-level value added from the CNTSD (10k yuan).
-* export -- firm-level export valuefrom the CNTSD (10k yuan).
+* export -- firm-level export value from the CNTSD (10k yuan).
 * TFP-OP -- firm-level total factor productivity measured by the approach in Olley and Pakes (1996).
 * TFP-LP -- firm-level total factor productivity measured by the approach in Levinsohn and Petrin (2003).
 * price -- carbon price of ETS pilots where ETS firms are located in (zero for non-ETS firms).
