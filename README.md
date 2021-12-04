@@ -1,6 +1,6 @@
 # PNAS_ChinaETS
 
-This repository contains the Stata code used in the study: Cui J, Wang C, Zhang J, Zheng Y "The effectiveness of China's regional carbon market pilots in reducing firm emissions". Proceedings of the National Academy of Sciences. The code show the process of obtaining empirical results in the main text and supplementary information appendix.
+This repository contains the Stata code used in the study: Cui J, Wang C, Zhang J, Zheng Y "The effectiveness of China's regional carbon market pilots in reducing firm emissions". Proceedings of the National Academy of Sciences. The code show the process of obtaining empirical results in the main text (contained in the folder MainText) and supplementary information appendix (contained in the folder SI).
 
 This repository contains the following code scripts:
 
