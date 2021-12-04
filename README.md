@@ -1,4 +1,4 @@
-
+# PNAS_ChinaETS
 
 This repository contain the Stata code used in the study: Cui et al. "The effectiveness of China's regional carbon market pilots in reducing firm emissions". The code show the process of obtaining empirical results in the main text and supplementary information appendix.
 
