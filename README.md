@@ -12,7 +12,7 @@ This repository contains the following code scripts:
 6. Robustness(PSM).do -- the code that employ propensity score matching (PSM) as an alternative method.
 7. Robustness(IPTW).do -- the code that employ inverse probability of treatment weighting (IPTW) as an alternative method.
 8. Robustness(CEM).do --  the code that employ coarsened exact matching (CEM) as an alternative method.
-9. Robustness(AltRateBased).do -- the code that run the robustness checks on alternative classifications for rate-based allowance allocation.
+9. Robustness(AltRateBase).do -- the code that run the robustness checks on alternative classifications for rate-based allowance allocation.
 10. Robustness(HeteroSector).do -- the code that examine the heterogeneous effects by different sectors.
 11. Robustness(HeteroPolicy).do -- the code that examine the policy heterogeneous effects (based upon carbon market performance) by diffferent alowance allocation methods.
 
