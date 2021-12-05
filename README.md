@@ -5,10 +5,10 @@ This repository contains the Stata code used in the study: Cui J, Wang C, Zhang 
 This repository contains the following code scripts:
 
 1. MainText(Mah).do -- the code that obtain the results in the main text, and summary statistics and balancing test in the supplementary information appendix.
-2. Dynamic(09to15).do & Dynamic(07to15).do -- the code that plot the figures of dynamic effects on total emissions and emission intensity.
+2. DynamicEffect.do -- the code that plot the figures of dynamic effects on total emissions and emission intensity.
 3. Robustness(AltMeas&Confound).do -- the code that run the robustness checks on alternative emission measurements and confounding factors.
 4. Robustness(AltMatchNum).do -- the code that run the robustness checks on alternative matching numbers.
-5. Robustness(AltCovSet1).do - Robustness(AltCovSet8).do -- the code that run the robustness checks on alternative sets of covariates in the matching procedure.
+5. Robustness(AltCovSet).do -- the code that run the robustness checks on alternative sets of covariates in the matching procedure.
 6. Robustness(PSM).do -- the code that employ propensity score matching (PSM) as an alternative method.
 7. Robustness(IPTW).do -- the code that employ inverse probability of treatment weighting (IPTW) as an alternative method.
 8. Robustness(CEM).do --  the code that employ coarsened exact matching (CEM) as an alternative method.
@@ -22,6 +22,9 @@ Key variables:
 * post_annc -- the binary indicator that denotes the announcement periods of China's ETS pilots.
 * post_implt -- the binary indicator that denotes the trading periods of China's ETS pilots.
 * region -- the binary indicator that denotes whether a firm is located in an ETS pilot region.
+* price -- carbon price of ETS pilots where ETS firms are located in (zero for non-ETS firms).
+* turnover -- turnover rate of ETS pilots where ETS firms are located in (zero for non-ETS firms).
+* RateBaseGroup -- the binary indicator that denotes if a firm is under the rate-based allocation system (and its matched control firm).
 * Emiss -- firm-level emissions calculated based on the CNTSD, measured in metric tons of carbon dioxide.
 * output -- firm-level output values from the CNTSD (10k yuan).
 * CE -- firm-level total energy consupmtion from the CNTSD, measured in metric tons of standard coal equivalent.
@@ -37,6 +40,3 @@ Key variables:
 * export -- firm-level export value from the CNTSD (10k yuan).
 * TFP-OP -- firm-level total factor productivity measured by the approach in Olley and Pakes (1996).
 * TFP-LP -- firm-level total factor productivity measured by the approach in Levinsohn and Petrin (2003).
-* price -- carbon price of ETS pilots where ETS firms are located in (zero for non-ETS firms).
-* turnover -- turnover rate of ETS pilots where ETS firms are located in (zero for non-ETS firms).
-* RateBaseGroup -- the binary indicator that denotes if a firm is under the rate-based allocation system (and its matched control firm).
