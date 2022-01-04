@@ -334,7 +334,7 @@ foreach Y of varlist $dep_var_main {
 	graph save Dynamic_`Y'.gph, replace
 	
 	outreg2 using "DynamicEffect.xls", excel keep(c.regu#c.ETS2009 baseline c.regu#c.ETS2011 c.regu#c.ETS2012 c.regu#c.ETS2013 c.regu#c.ETS2014 c.regu#c.ETS2015) dec(3) /*
-	*/ addtext(Firm FE, Y, Year FE, Y, Province-Year FE, Y, Industry-Year FE, Y)
+	*/ addtext(Firm FE, Y, Year FE, Y, Province-Year linear trend, Y, Industry-Year linear trend, Y)
 	
 }
 
